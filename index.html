@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<link rel="stylesheet" href="style.css">
+    <title>Avneet | Palindrome Birthday</title>
+</head>
+<body>
+
+    <div class="container">
+     <h1>Is Your Birthday Palindrome?</h1>
+     <p class="desc">A palindrome is a word/number which reads the same backward as forward</h4>
+     <p class="imp">This app checks your birthdate in 6 formats yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, dd-mm-yy, mm-dd-yy, yy-mm-dd</p>
+     <div class="note">
+        <p><span class="privacy"> Privacy : </span>We do not store any of your information.</p>
+        <!-- <div class="cross"><i class="fas fa-times"></i></div> -->
+    </div>
+     <div class="heading">Date Of Birth:</div>
+     <input type="date" id="date-input" class="input-field-1">
+     <button id="btn-check">Check!</button>
+     <lottie-player src="https://assets7.lottiefiles.com/datafiles/0BklE7L1HhdHa4v/data.json"  background="transparent"  speed="1.2" id="loading-lottie" loop autoplay></lottie-player>
+     <div id="output"></div>
+    </div>
+
+    <footer>       
+       <ul class="footer-ul">
+        <li><a class="menu footer-nav" target="_blank" href="https://github.com/Avneet-k"><i class="fab fa-github-alt"></i></a>
+        </li>
+        <li><a class="menu footer-nav" target="_blank" href="https://www.linkedin.com/in/avneet-kaur-34b7b9190/"><i	class="fab fa-linkedin-in"></i></a></li>
+        <li><a class="menu footer-nav" target="_blank" href="https://www.instagram.com/ni_cecodes"><i class="fab fa-instagram"></i></a></li>
+        <li><a class="menu footer-nav" target="_blank" href="https://twitter.com/Avneet_K2"><i class="fab fa-twitter"></i></a></li>
+       </ul>
+       <div class="futer">©2021 Made by Avneet💖</div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
